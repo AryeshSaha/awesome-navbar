@@ -39,7 +39,7 @@ const NavMenu = ({ isOpen, toggleDrawer }) => {
         onClick={() => toggleDrawer(false)}
         className={`min-h-screen fixed ${
           isOpen ? "top-0" : "top-[-100%]"
-        } left-0 transition-all duration-500 ease-in-out z-40 w-full bg-zinc-900 flex justify-center items-center pt-16`}
+        } left-0 transition-all duration-500 ease-in-out z-40 w-full bg-zinc-900 flex justify-center items-center`}
       >
         <motion.ul
           className="text-sky-600 w-full md:w-[50%] flex flex-col justify-center items-center"
